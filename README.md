@@ -1,4 +1,4 @@
-# Проект YaMDb
+# Проект YaMDb ![example workflow](https://github.com/AnastasiaNesterenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Учебный проект на подобии IMDb
 
@@ -56,4 +56,4 @@ python manage.py runserver
 
 [ссылка на гит](https://github.com/AnastasiaNesterenko "Переходи обязательно")
 
-![example workflow](https://github.com/AnastasiaNesterenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
