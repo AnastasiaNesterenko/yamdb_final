@@ -15,7 +15,6 @@ from rest_framework_simplejwt.tokens import AccessToken
 from .models import User
 from .serializers import (UserAccessTokenSerializer, UserCreationSerializer,
                           UserSerializer)
-
 from api.permissions import IsAdmin
 
 
