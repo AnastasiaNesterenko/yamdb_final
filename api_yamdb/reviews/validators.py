@@ -2,9 +2,9 @@
 Приложение reviews.
 Реализована проверка года произведения.
 """
-from django.utils import timezone
 from django.core.exceptions import ValidationError
 from django.core.validators import RegexValidator
+from django.utils import timezone
 
 
 characters_validator = RegexValidator(
