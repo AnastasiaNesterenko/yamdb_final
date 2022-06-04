@@ -12,11 +12,11 @@ from rest_framework.pagination import LimitOffsetPagination
 
 from .filters import TitleFilter
 from .mixins import ListCreateDestroyViewSet
+from reviews.models import Category, Genre, Review, Title
 from .permissions import (IsAdminModeratorAuthorOrReadOnly,
                           IsAdminUserOrReadOnly)
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer, TitleSerializer)
-from reviews.models import Category, Genre, Review, Title
 
 
 class CategoryViewSet(ListCreateDestroyViewSet):
