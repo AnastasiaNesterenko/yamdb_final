@@ -58,7 +58,6 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         stack_file_name: docker-compose.yaml
         script: |
-          sudo docker pull greengnom1/yamdb_final:latest
           sudo docker-compose stop
           sudo docker-compose rm web
           touch .env
