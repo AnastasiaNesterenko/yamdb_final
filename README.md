@@ -1,5 +1,7 @@
 # Проект YaMDb ![example workflow](https://github.com/AnastasiaNesterenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+cсылочка http://130.193.53.37/admin/
+
 ## Учебный проект на подобии IMDb
 
 ### Описание
